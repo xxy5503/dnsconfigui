@@ -1,0 +1,15 @@
+services:
+  dns:
+    image: xxy5503/dns:latest
+    build:
+      context: .
+    container_name: dns
+    network_mode: host
+    restart: unless-stopped
+    volumes:
+      - dns_config:/etc/dns
+      - dns_log:/var/log/dns
+
+volumes:
+  dns_config:
+  dns_log:
