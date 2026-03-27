@@ -12,7 +12,7 @@
 ### 1. 克隆项目代码
 
 ```bash
-git clone git@github.com:xxy5503/dnsconfigui.git
+git clone [https://github.com/xxy5503/dnsconfigui.git](https://github.com/xxy5503/dnsconfigui.git)
 ````
 
 ### 2. 进入项目目录并启动服务
